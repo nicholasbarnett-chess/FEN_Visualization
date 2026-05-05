@@ -6,7 +6,11 @@ This repository will take in an FEN sequence and generate a .png file of a board
 To execute the BoardVisualizer script and make a png one would follow the format below.
 
 Making an image of the starting position of a chess game:
+```
 root 'BoardVisualizer.C("rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1", "StartingPosition.png")'
+```
 
 Making an image of the starting position of an Evans gambit:
+```
 root 'BoardVisualizer.C("r1bqk1nr/pppp1ppp/2n5/2b1p3/1PB1P3/5N2/P1PP1PPP/RNBQK2R b KQkq - 0 4", "EvansGambit.png")'
+```
