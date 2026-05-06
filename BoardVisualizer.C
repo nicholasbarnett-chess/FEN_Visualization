@@ -466,7 +466,7 @@ bool generateBoardPNG(const char* filename, Piece board[8][8],int squareSize = 2
     }
 
     // initialize font
-    std::vector<unsigned char> fontBuffer = loadFile("/Users/nicky/Desktop/ChessEngine/arial.ttf");
+    std::vector<unsigned char> fontBuffer = loadFile("arial.ttf");
     stbtt_fontinfo font;
 
     if(!stbtt_InitFont(&font,fontBuffer.data(),stbtt_GetFontOffsetForIndex(fontBuffer.data(), 0))){throw std::runtime_error("Failed to initialize font");}
